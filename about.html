@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>vishesh thakur | about &copy;</title>
+    <!--Google poppins font api-->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!--Bootstrap cdn-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="vt.png" sizes="42x32" type="image/png">
+    <!--Scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">vishesh thakur.</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html"><< Back to Home</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+
+    <section id="description">
+      <div class="container">
+        <h3>[  Who am i?  ]</h3>
+        <p>I am a recent graduate of Drexel University, where I studied Information Systems and Science.
+           I became an active member of the campus community through multiple leadership roles, while constantly
+           expanding my professional skills during my academic stretch. I am passionate about using my resourceful
+           background to help companies succeed in developing innovative softwares through radical, unique and
+           engaging design that will help the community. Through my work I am striving to become part of something
+           that will make an impact, both globally and locally. I am happy to speak about additional opportunities and
+           always eager to hear about any opportunity within my interests or to just grab coffee with someone who shares
+           similar passions.
+        </p>
+        <p id="email">
+          Fell free to contact me at <span class="highlight">visheshsingh16@gmail.com</span>
+        </p>
+
+      </div>
+    </section>
+
+
+    <section id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <img class="img-left" src="img/img4.jpg" alt="">
+            </div>
+            <div class="col-md-5">
+              <div class="skills-right">
+                <h2>Self-motivated programmer</h2>
+                <p>Developed and adapted coding skills from open source websites</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="skills-left">
+                <h2>Problem solver</h2>
+                <p>Proficient in debugging and troubleshooting</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-right" src="img/img5.gif" alt="">
+            </div>
+          </div>
+        </div>
+        <br/>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <img class="img-left" src="img/img6.gif" alt="">
+            </div>
+            <div class="col-md-5">
+              <div class="skills-right">
+                <h2>Strong work ethics</h2>
+                <p>Possesses extensive knowledge of tools, attention to detail and precision,
+                   skilled judgment & great planning and organizing aptitude</p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+        <br/>
+        <hr>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="skills-left">
+                <h2>Deftly adaptable</h2>
+                <p>Flexible to handle different situations and dexterously handle multiple tasks</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <img class="img-right" src="img/img7.gif" alt="">
+            </div>
+          </div>
+        </div>
+    </section>
+
+
+
+    <hr>
+
+    <footer>
+      <p class="text-center">Vishesh Thakur | Copyright &copy; 2017</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js">
+
+
+    </script>
+    <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+      });
+    </script>
+
+  </body>
+</html>

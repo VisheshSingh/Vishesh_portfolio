@@ -1,3 +1,12 @@
+body{
+  margin-top:70px;
+  font-family: Poppins;
+}
+
+p{
+    font-size: 17px;
+}
+
 .navbar-default{
   background: #fff;
   border: 0;
@@ -8,4 +17,363 @@
   font-size: 20px;
   color:#000 !important;
   font-weight: bold;
+}
+
+#showcase h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#showcase img{
+  width: 90%;
+  margin-left: 60px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 5px #ccc;
+}
+
+#showcase-button{
+  transition: all 1.5s ease;
+}
+
+#showcase-button:hover{
+    color:#fff;
+    background-color: #000;
+}
+
+#showcase .showcase-left img{
+  height: 600px;
+  width: 370px;
+}
+
+#showcase .showcase-right{
+  margin-top: 120px;
+
+}
+
+.copyright{
+  font-size: 25px;
+}
+/*
+#testimonial{
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+#testimonial p {
+  font-size: 32px;
+  color: #000;
+}
+
+#testimonial p.customer{
+  font-size: 20px;
+  color: #000;
+}
+*/
+#about {
+/*  background-color: #D57878;*/
+  background-color: #808080;
+  height: 1000px;
+  margin-top:50px;
+}
+
+#code {
+/*  margin-top:150px;*/
+  border-radius: 5px;
+  width:670px;
+  margin: 0 auto;
+  padding-top:15px;
+  font-size:30px;
+  background: #fff;
+  height: 620px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size:15px;
+  color: #fafafa;
+}
+
+#console {
+  width:670px;
+  padding: 40px;
+  height: 720px;
+  margin:0 auto;
+  background: #383737;
+}
+
+#about p {
+  text-align: center;
+  padding-top: 60px;
+  letter-spacing: 0.3em;
+  /*font-family: Poppins;*/
+  font-weight: 700;
+  color: #fafafa;
+  font-size: 15px;
+  /*text-transform: uppercase;*/
+
+}
+
+span.answer {
+  color:#d8d8d8;
+}
+
+.answer a {
+  color: yellow;
+}
+
+/*About.html*/
+
+#description{
+  background: #f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#description h3{
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#description  p {
+  font-size: 17px;
+  color: #000;
+  line-height: normal;
+}
+
+#email{
+  text-align: center;
+}
+
+.highlight{
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#skills img{
+  width: 600px;
+  height: 420px;
+  border-radius: 5px;
+}
+
+#skills .skills-right{
+  text-align: center;
+  margin-top: 140px;
+}
+
+#skills .skills-right h2{
+  color: #ff4d4d;
+}
+
+#skills .skills-left{
+  text-align: center;
+  margin-top: 140px;
+}
+
+#skills .skills-left h2{
+  color: #ff4d4d;
+}
+/*about.html end*/
+
+/*Slideshow*/
+.item img{
+
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px #888888;
+}
+/*slideshow ends*/
+
+/*social media icons*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  filter: grayscale(100%);
+}
+
+.fa:hover {
+    filter: grayscale(0%);
+    color: white;
+    text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-github {
+  background: #6e5494;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-quora {
+  background: #A20;
+  color: white;
+}
+
+
+/*social media icons ends*/
+
+/*resume starts*/
+.tagline {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 50px;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-left: 270px;
+}
+
+.section-tagline {
+  text-align: center;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  margin-left: 300px;
+  border-bottom: 1px solid #CEC8C8;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.skill {
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  border-radius: 8px;
+}
+
+.design {
+  border-color: #86BE91;
+}
+
+#resume p{
+  margin-left: 300px;
+}
+
+#resume {
+
+  background-color: #ddd;
+  height: auto;
+  margin-top: 30px;
+  padding-top: 60px;
+/*  //font-family: 'Karla';*/
+  font-size: 15px;
+  line-height: 34px;
+
+
+}
+
+#resume .inner {
+  width:1100px;
+}
+
+.right {
+  float: right;
+}
+
+img.icon {
+  width: 65px;
+  height: 65px;
+  border-radius:50%;
+  float: left;
+  display: inline;
+  margin-left: -95px;
+  margin-top: 5px;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: 0;
+  filter: grayscale(100%);
+  transition: all .4s ease;
+}
+
+img.icon:hover {
+  filter: grayscale(0%);
+  filter: none;
+}
+
+/*resume ends*/
+
+.info-right{
+  text-align: left;
+}
+
+#info1 {
+  margin-top: 90px;
+
+}
+
+#info1 .info-right{
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+#info1 img{
+  width: 90%;
+  height: 95%;
+}
+
+#info1 .info-btn:hover{
+    color:#fff;
+    background-color: #000;
+    transition-duration: 0.8s;
+}
+
+#info2 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+#contact{
+  background: url(../img/image3.jpeg);
+  background-size: cover;
+  padding: 40px;
+  color:#fff;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+}
+
+footer{
+  padding: 30px;
 }
