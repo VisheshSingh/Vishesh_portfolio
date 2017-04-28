@@ -31,11 +31,11 @@ p{
   box-shadow: 10px 10px 5px #ccc;
 }
 
-#showcase-button{
+.showcase-btn{
   transition: all 1.5s ease;
 }
 
-#showcase-button:hover{
+.showcase-btn:hover{
     color:#fff;
     background-color: #000;
 }
@@ -295,14 +295,12 @@ span.answer {
 #resume {
 
   background-color: #ddd;
-  height: auto;
+  height: 1780px;
   margin-top: 30px;
   padding-top: 60px;
 /*  //font-family: 'Karla';*/
   font-size: 15px;
   line-height: 34px;
-
-
 }
 
 #resume .inner {
@@ -311,6 +309,17 @@ span.answer {
 
 .right {
   float: right;
+}
+
+#round-image img{
+  width: 150px;
+  height: 170px;
+  border-radius:50%;
+  background-color: #808080;
+  margin-left: 625px;
+  margin-top: -90px;
+  margin-bottom: 20px;
+  border:5px solid #aaa;
 }
 
 img.icon {
@@ -365,8 +374,61 @@ img.icon:hover {
   margin-bottom: 90px;
 }
 
+/*Project*/
+.tag {
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 50px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+#project{
+  border-top:#808080 7px solid;
+  background:#eee;
+  height: auto;
+  text-align: center;
+  padding: 60px 0 60px 0;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.row {
+  clear: both;
+}
+
+.portfolio-thumb {
+  width: 40%;
+  margin: 20px;
+  background-color: white;
+  display: inline-block;
+  /*//height: 500px;*/
+}
+
+.portfolio-thumb img {
+  width: 100%;
+}
+
+.portfolio-thumb p {
+  font-size: 14px;
+  padding: 25px;
+  padding-top: 0px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.portfolio-thumb a {
+  text-decoration: underline;
+}
+
+.portfolio-big {
+  width: 95%;
+ /* height: 680px;*/
+}
+
+/*projects ends*/
 #contact{
-  background: url(../img/image3.jpeg);
+  background: url(../img/contact.png) 0px -350px;
   background-size: cover;
   padding: 40px;
   color:#fff;

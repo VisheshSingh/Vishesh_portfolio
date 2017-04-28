@@ -32,6 +32,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#showcase">Home</a></li>
             <li><a href="#about p">About</a></li>
+            <li><a href="#info1">MySpace</a></li>
+            <li><a href="#round-image">Resume</a></li>
+            <li><a href="#Projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -54,7 +57,7 @@
                 that remarkable beauty or kind of work to you.</p>
             </div>
             <br/>
-            <a id="showcase-button" class="btn btn-default btn-lg showcase-btn" href="about.html">Read more</a>
+            <a class="btn btn-default btn-lg showcase-btn" href="about.html">Read more</a>
           </div>
         </div>
       </div>
@@ -187,19 +190,22 @@
 
     <section id="res">
       <div id="resume"><div class="inner">
+        <div id="round-image">
+          <img src="img/vishesh.jpg" alt="">
+        </div>
 				<p class="tagline">Résumé</p>
 				<!-- Résumé : Education -->
 				<p class="section-tagline" style="text-align:left;">Education</p>
 
 				<p>
-					<a target="_blank" href="#drexel website"><img class="icon" src="img/drexel.jpg"></a><b>Drexel University</b>
+					<a target="_blank" href="http://drexel.edu/cci/"><img class="icon" src="img/drexel.jpg"></a><b>Drexel University</b>
 					<span class="right"><i>2014 - 2016</i></span><br/><b>Information System, M.S.</b>
 					<span class="right"><i>Philadelphia, PA</i></span><br/><br/>
 				</p>
 				<br/>
 
 				<p>
-					<a target="_blank" href="#vardhaman website‎"><img class="icon" src="img/jntu.jpg"></a><b>Jawaharlal Nehru Technological University (JNTU)</b>
+					<a target="_blank" href="http://www.jntuh.ac.in/new/"><img class="icon" src="img/jntu.jpg"></a><b>Jawaharlal Nehru Technological University (JNTU)</b>
 					<span class="right"><i>2010 - 2014</i></span><br/>
 					<b>Electronics & Communication, B.Tech.</b>
 					<span class="right"><i>Hyderabad, India</i></span><br/><br/>
@@ -209,7 +215,7 @@
 				<p class="section-tagline" style="text-align:left;">Work Experience</p>
 
 				<p>
-					<a target="_blank" href=""><img class="icon" src="img/drexel.jpg"></a><b>Drexel University</b>
+					<a target="_blank" href="http://drexel.edu/cci/academics/departments/computer-science/"><img class="icon" src="img/drexel.jpg"></a><b>Drexel University</b>
 					<span class="right"><i>Fall 2016</i></span><br/>
 					<b>Graduate Teaching Assistant</b>
 					<span class="right"><i>Philadelphia, PA</i></span><br/><br/>
@@ -231,7 +237,7 @@
 				<br/>
         <br/>
 				<p>
-					<a target="_blank" href=""><img class="icon" src="img/3kits.jpg"></a><b>3Kits</b>
+					<a target="_blank" href="http://www.3kits.com/"><img class="icon" src="img/3kits.jpg"></a><b>3Kits</b>
 					<span class="right"><i>April 2014 - December 2014</i></span><br/>
 					<b>Web Design Intern</b>
 					<span class="right"><i>Telangana, India</i></span><br/><br/>
@@ -245,9 +251,9 @@
 
 			</div></div>
     </section>
-    <hr>
 
-    <section id="info2">
+
+  <!--  <section id="info2">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-sm-6">
@@ -268,26 +274,59 @@
           </div>
         </div>
       </div>
+    </section> -->
+
+    <section id="Projects">
+      <!-- Portfolio -->
+			<div id="project"><div class="inner">
+				<p class="tag">Projects</p>
+
+  				<div class="row">
+  					<div class="portfolio-thumb">
+  						<a href="https://github.com/VisheshSingh/proplistings" target="_blank"><img src="img/mac2.png"></a>
+              <p></p>
+  						<p class="description"><b><a href="https://github.com/VisheshSingh/proplistings" target="_blank">PropListings</a></b>&nbsp;&nbsp; Built on top of Angular2 and firebase this app allows members to add, edit and delete property listings.</p>
+  					</div>
+  					<div class="portfolio-thumb">
+  						<a href="https://github.com/VisheshSingh/movieInfo" target="_blank"><img src="img/mac3.png"></a>
+
+  						<p class="description"><b><a href="https://github.com/VisheshSingh/movieInfo" target="_blank">MovieInfo</a></b>&nbsp;&nbsp; A movie listing application designed using JavaScript ES6 & jQuery. An HTTP client, Axios was utilized for making HTTP requests to the OMDb API.</p>
+  					</div>
+  				</div>
+  				<div class="row">
+  					<div class="portfolio-thumb">
+  						<a href="https://github.com/VisheshSingh/Angular-Spotify" target="_blank"><img src="img/mac.png"></a>
+              <p></p>
+  						<p class="description"><b><a href="https://github.com/VisheshSingh/Angular-Spotify" target="_blank">Ang-spotify</a></b>&nbsp;&nbsp; This application let's users browse and listen to their favorite artist's songs. It uses spotify API to fetch the music library and is designed using Angular2.
+  						</p>
+  					</div>
+  					<div class="portfolio-thumb">
+  						<a href="https://github.com/VisheshSingh/TodolistApp" target="_blank"><img src="img/todo.png"></a>
+              <p></p>
+  						<p class="description"><b><a href="https://github.com/VisheshSingh/TodolistApp" target="_blank">To-Dos</a></b>&nbsp;&nbsp; A simple to-do list application built using Bootstrap and Angular2. </p>
+  					</div>
+  				</div>
+			</div></div>
     </section>
 
     <section id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-5 col-sm-5">
-            <form class="" action="index.html" method="post">
+            <form name="contactForm" class="" action="contact.php" method="post">
               <div class="form-group">
                 <label for="">Name:</label>
-                <input class="form-control" type="text" name="" value="" placeholder="Enter Name...">
+                <input class="form-control" type="text" name="fullname" value="" placeholder="Enter Name...">
               </div>
               <div class="form-group">
                 <label for="">Email:</label>
-                <input class="form-control" type="email" name="" value="" placeholder="Enter Email...">
+                <input class="form-control" type="email" name="email" value="" placeholder="Enter Email...">
               </div>
               <div class="form-group">
                 <label for="">Message:</label>
-                <textarea class="form-control" type="text" name="" value="" placeholder="Enter message..."></textarea>
+                <textarea class="form-control" type="text" name="message" value="" placeholder="Enter message..."></textarea>
               </div>
-              <button class="btn btn-default" type="submit" name="button">Submit</button>
+              <button class="btn btn-default" type="submit" name="submit-button">Submit</button>
             </form>
           </div>
 
@@ -310,6 +349,24 @@
     <script src="js/main.js">
 
 
+    </script>
+    <script>
+      document.contactForm.onsubmit = function(){
+        if(document.contactForm.fullname = '')
+        {
+          alert('Please enter your name');
+          document.contactForm.fullname.focus();
+          return false;
+        }
+
+        if(document.contactForm.email = '')
+        {
+          alert('Please enter your email');
+          document.contactForm.email.focus();
+          return false;
+        }
+        return true;
+      }
     </script>
     <script>
     $(function() {

@@ -13,13 +13,15 @@ sr.reveal('.showcase-left', {
 sr.reveal('.showcase-right', {
   duration: 2000,
   origin: 'right',
-  distance: '300px'
+  distance: '300px',
 });
 
 sr.reveal('.showcase-btn', {
   duration: 2000,
   origin: 'bottom',
-  delay: 2000
+  distance: '300px',
+  viewFactor: 0.5,
+  delay: 1500,
 });
 
 sr.reveal('#testimonial div', {
@@ -98,12 +100,26 @@ sr.reveal('.skills-left', {
     duration: 2000,
     origin: 'left',
     distance: '300px',
-    viewFactor: 0.2,
+    viewFactor: 0.1,
 });
 
 sr.reveal('.skills-right', {
     duration: 2000,
     origin: 'right',
+    distance: '300px',
+    viewFactor: 0.1
+});
+
+sr.reveal('#res', {
+    duration: 2000,
+    origin: 'right',
+    distance: '300px',
+    viewFactor: 0.2
+});
+
+sr.reveal('#Projects', {
+    duration: 2000,
+    origin: 'bottom',
     distance: '300px',
     viewFactor: 0.2
 });
