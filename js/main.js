@@ -16,12 +16,11 @@ sr.reveal('.showcase-right', {
   distance: '300px',
 });
 
-sr.reveal('.showcase-btn', {
-  duration: 2000,
+sr.reveal('#readmore', {
+  duration: 1000,
   origin: 'bottom',
   distance: '300px',
-  viewFactor: 0.5,
-  delay: 1500,
+  delay: 1000,
 });
 
 sr.reveal('#testimonial div', {
